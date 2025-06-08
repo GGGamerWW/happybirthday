@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jersey+15&family=Jersey+20&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ font-family: "Jersey 15", sans-serif;
+}
+
+body {
+ transition: 0.6s;
+ background-color: #33ccff;
+}
+
+h1 {
+ text-align: center;
+ color: #fefefe;
+ background-color: #050505;
+ padding: 20px;
+ font-family: "Jersey 20", sans-serif;
+ transition: 0.7s;
+}
+
+section {
+ text-align: center;
+ padding: 20px;
+ background-color: #aff;
+ margin: 20px;
+ box-shadow: 3px 3px 0 black;
+ transition: 0.7s;
+}
+
+h2 {
+ margin-bottom: 20px;
+}
+
+button {
+ background-color: rgb(255,255,255);
+ padding: 8px 15px;
+ border-radius: 8px;
+ border: 1px solid #9a9a9a;
+ margin: 8px;
+ box-shadow: 3px 3px 0 black;
+ color: green;
+ transition: 1.25s linear;
+}
+
+a {
+ text-decoration: none;
+}
+
+hr {
+ height: 1.5px;
+ margin-top: 5px;
+ text-align: center;
+ color: black;
+ background-color: #777;
+ border: none;
+ 
+ box-shadow: 1.5px 1.5px 0 black;
+}
+
+#nm {
+ margin-right: 5px;
+ margin-left: 5px;
+}
+
+#msg-ctn {
+ margin-top: 20px;
+ margin-left: 20px;
+ background-color: #aaeeff;
+ width: 170px;
+ padding: 3px 5px;
+ border-radius: 10px 10px 0 0;
+ border-bottom: 2px solid black;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ transition: 0.7s;
+}
+
+#msg {
+ /* opacity: 0%; */
+ font-size: 12pt;
+ margin-top: -15px;
+ margin-top: 0;
+ transition: .5s linear;
+}
+
+#min {
+ background-color: #ededed;
+ padding: 4px 8px;
+ border: 1px solid black;
+ border-radius: 3px;
+ margin-left: 15px;
+ color: black;
+}
+
+
+#chest {
+ transition: 1s linear;
+}
+
+#chest-image {
+ animation: chestmovement 2s ease-in-out infinite alternate;
+}
+
+#games {
+ display: none;
+ transition: 1s linear;
+}
+
+@keyframes chestmovement {
+ 0% {
+  transform: scale(1.0);
+ } 50% {
+  transform: scale(1.1);
+ } 100% {
+  transform: scale(1.0);
+ }
+}
+
+.btn {
+ border-radius: 0;
+ border: 1px solid;
+}
+
+#darkLight {
+ background-color: white;
+ position: absolute;
+ margin: 10px;
+ border: none;
+ border-radius: 15px;
+ transition: 0.7s;
+}
+
+#my-name {
+  background-image: linear-gradient(to right, #22de9f, #2cf);
+  color: transparent;
+  background-clip: text;
+}
